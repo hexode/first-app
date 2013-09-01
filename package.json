@@ -1,12 +1,16 @@
 {
-  "name": "application-name",
+  "name": "first-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.3.7",
+    "express": "3.2.0",
     "jade": "*"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
   }
 }
